@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/Ryukyo/store-go/pkg/config"
-	"github.com/Ryukyo/store-go/pkg/handlers"
+	"github.com/Ryukyo/store-go/internal/config"
+	"github.com/Ryukyo/store-go/internal/handlers"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 )

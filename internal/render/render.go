@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/Ryukyo/store-go/pkg/config"
-	"github.com/Ryukyo/store-go/pkg/models"
+	"github.com/Ryukyo/store-go/internal/config"
+	"github.com/Ryukyo/store-go/internal/models"
 	"github.com/justinas/nosurf"
 )
 

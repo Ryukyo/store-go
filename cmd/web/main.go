@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Ryukyo/store-go/pkg/config"
-	"github.com/Ryukyo/store-go/pkg/handlers"
-	"github.com/Ryukyo/store-go/pkg/render"
+	"github.com/Ryukyo/store-go/internal/config"
+	"github.com/Ryukyo/store-go/internal/handlers"
+	"github.com/Ryukyo/store-go/internal/render"
 	"github.com/alexedwards/scs/v2"
 )
 

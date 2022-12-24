@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Ryukyo/store-go/pkg/config"
-	"github.com/Ryukyo/store-go/pkg/models"
-	"github.com/Ryukyo/store-go/pkg/render"
+	"github.com/Ryukyo/store-go/internal/config"
+	"github.com/Ryukyo/store-go/internal/models"
+	"github.com/Ryukyo/store-go/internal/render"
 )
 
 // Repo the repository used by the handlers
