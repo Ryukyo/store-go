@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/gob"
 	"fmt"
 	"log"
 	"net/http"
@@ -8,6 +9,7 @@ import (
 
 	"github.com/Ryukyo/store-go/internal/config"
 	"github.com/Ryukyo/store-go/internal/handlers"
+	"github.com/Ryukyo/store-go/internal/models"
 	"github.com/Ryukyo/store-go/internal/render"
 	"github.com/alexedwards/scs/v2"
 )
@@ -19,7 +21,9 @@ var session *scs.SessionManager
 
 // main is the main function
 func main() {
-	// change this to true when in production
+	// register interfaces that are going to be put in the session
+	gob.Register(models.Reservation{})
+
 	app.InProduction = false
 
 	// set up the session
